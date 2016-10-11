@@ -1,0 +1,38 @@
+[global_config]
+  borderless = True
+  enabled_plugins = LaunchpadCodeURLHandler, LaunchpadBugURLHandler
+  handle_size = 3
+  tab_position = hidden
+  window_state = maximise
+[keybindings]
+  new_tab = <Ctrl>N
+  next_tab = <Ctrl>Right
+  prev_tab = <Ctrl>Left
+  search = <Ctrl>F
+  paste = <Ctrl>V
+  split_horiz = <Ctrl><Shift>H
+  split_vert = <Ctrl><Shift>V
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_blink = False
+    cursor_color = "#e62e00"
+    cursor_shape = "ibeam"
+    use_system_font = False
+    font = "Dejavu Sans Mono 10.5"
+    foreground_color = "#00ff00"
+    scrollbar_position = hidden
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[window0]]
+      type = Window
+    [[child1]]
+      type = Terminal
+      parent = window0
+[plugins]
