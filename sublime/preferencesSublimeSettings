@@ -1,36 +1,37 @@
 {
-  "theme": "Spacegray Eighties.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
-  "spacegray_sidebar_font_normal": true,
-  "spacegray_sidebar_tree_xlarge": true,
-  "spacegray_tabs_font_large": true,
-  "spacegray_tabs_xlarge": true,
-  "enable_tab_scrolling": false,
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-  "ensure_newline_at_eof_on_save": true,
-  "find_selected_text": true,
-  "spell_check": true,
-  "dictionary": "Packages/Language - English/en_US.dic",
-  "auto_complete": true,
-  "auto_indent": true,
-  "smart_indent": true,
-  "caret_style": "phase",
-  "font_size": 10,
-  "full_screen": true,
-  "line_numbers": true,
-  "line_padding_top": 3,
-  "margin": -8,
-  "highlight_line": true,
-  "update_check": false,
-  "save_on_focus_lost": true,
-  "rulers":
-  [
-    80
-  ],
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
+	"auto_complete": true,
+	"auto_indent": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
+	"font_size": 10,
+	"full_screen": true,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_numbers": true,
+	"line_padding_top": 3,
+	"margin": -8,
+	"rulers":
+	[
+		90
+	],
+	"save_on_focus_lost": true,
+	"smart_indent": true,
+	"spacegray_fileicons": true,
+	"spacegray_sidebar_font_normal": true,
+	"spacegray_sidebar_tree_xlarge": true,
+	"spacegray_tabs_font_large": true,
+	"spacegray_tabs_xlarge": true,
+	"spell_check": false,
+	"tab_size": 2,
+	"theme": "Spacegray Eighties.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false
 }
